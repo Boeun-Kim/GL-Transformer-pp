@@ -5,7 +5,7 @@ This is the official implementation of "A Unified Framework for Unsupervised Act
 
 
 
-![architecture](https://github.com/Boeun-Kim/GL-Transformer++/blob/main/figures/architecture.png)
+![architecture](https://github.com/Boeun-Kim/GL-Transformer-pp/blob/main/figures/architecture.png)
 
 
 
@@ -22,6 +22,7 @@ Install python libraries with:
 ```
 pip install -r requirements.txt
 ```
+
 
 
 
@@ -43,6 +44,7 @@ pip install -r requirements.txt
    ```
    python volley_gendata.py
    ```
+
 
  
 
@@ -76,11 +78,13 @@ python linear_eval_protocol.py \
 
 
 
+
 ## Download trained weights
 
 Trained weights can be downloaded via
 
 https://drive.google.com/file/d/15Ahsq5zroIBRV4JWpb7OgipNh8BW1BZb/view?usp=drive_link
+
 
 
 
@@ -95,6 +99,7 @@ python test_actionrecog.py \
     --data_path ./data/preprocessed \
     --pretrained_model_w_classifier pretrained/linear/PT_w_classifier
 ```
+
 
 
 
