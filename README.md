@@ -46,7 +46,7 @@ pip install -r requirements.txt
    ```
 
 
- 
+
 
 ## Unsupervised Pretraining
 
@@ -83,7 +83,20 @@ python linear_eval_protocol.py \
 
 Trained weights can be downloaded via
 
+GL-Transformer++ Large
+
 https://drive.google.com/file/d/15Ahsq5zroIBRV4JWpb7OgipNh8BW1BZb/view?usp=drive_link
+
+GL-Transformer++ Small
+
+https://drive.google.com/file/d/1RWRo-ilp3rtdM4qVOXv2dxvJhgrLfBxy/view?usp=drive_link
+
+| Model                  | GFLOPs | Accuracy (%) |
+| ---------------------- | ------ | ------------ |
+| GL-Transformer++ Small | 0.55   | 80.1         |
+| GL-Transformer++ Large | 20.00  | 88.0         |
+
+
 
 
 
@@ -98,6 +111,15 @@ Sample arguments for testing whole framework:
 python test_actionrecog.py \
     --data_path ./data/preprocessed \
     --pretrained_model_w_classifier pretrained/linear/PT_w_classifier
+```
+
+To test GL-Transformer++ Small, arguments should be
+
+```
+python test_actionrecog.py \
+    --data_path ./data/preprocessed \
+    --num_heads 2 --dim_emb 6 --ff_expand 1 \
+    --pretrained_model_w_classifier pretrained_small/linear/PT_w_classifier
 ```
 
 
