@@ -1,6 +1,6 @@
 # GL-Transformer++ (under review)
 
-This is 무 official implementation of "A Unified Framework for Unsupervised Action Learning via Global-to-Local Motion Transformer". GL-Transformer++ is an extension method of GL-Transformer [[paper]](https://arxiv.org/abs/2207.06101) [[project]](https://boeun-kim.github.io/).
+This is an official implementation of "A Unified Framework for Unsupervised Action Learning via Global-to-Local Motion Transformer". GL-Transformer++ is an extension method of GL-Transformer [[paper]](https://arxiv.org/abs/2207.06101) [[project]](https://boeun-kim.github.io/).
 
 
 
