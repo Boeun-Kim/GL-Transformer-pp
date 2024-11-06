@@ -1,6 +1,5 @@
-# GL-Transformer++ (under review)
-
-This is an official implementation of "A Unified Framework for Unsupervised Action Learning via Global-to-Local Motion Transformer". GL-Transformer++ is an extension method of GL-Transformer [[paper]](https://arxiv.org/abs/2207.06101) [[project]](https://boeun-kim.github.io/).
+# GL-Transformer++ for Group Activity Recognition (Pattern Recognition 2025)
+This is an official implementation of "A Unified Framework for Unsupervised Action Learning via Global-to-Local Motion Transformer" [[paper]](https://www.sciencedirect.com/science/article/pii/S0031320324008690). GL-Transformer++ is an extension method of GL-Transformer [[paper]](https://arxiv.org/abs/2207.06101) [[project]](https://boeun-kim.github.io/).
 
 
 
@@ -145,5 +144,16 @@ Please cite our work if you find it useful.
   pages={209--225},
   year={2022},
   organization={Springer}
+}
+```
+
+```
+@article{kim2024unified,
+  title={A unified framework for unsupervised action learning via global-to-local motion transformer},
+  author={Kim, Boeun and Kim, Jungho and Chang, Hyung Jin and Oh, Tae-Hyun},
+  journal={Pattern Recognition},
+  pages={111118},
+  year={2024},
+  publisher={Elsevier}
 }
 ```
