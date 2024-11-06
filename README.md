@@ -1,5 +1,5 @@
 # GL-Transformer++ for Group Activity Recognition (Pattern Recognition 2025)
-This is an official implementation of "A Unified Framework for Unsupervised Action Learning via Global-to-Local Motion Transformer" [[paper]](https://www.sciencedirect.com/science/article/pii/S0031320324008690). GL-Transformer++ is an extension method of GL-Transformer [[paper]](https://arxiv.org/abs/2207.06101) [[project]](https://boeun-kim.github.io/).
+This is an official implementation of "A Unified Framework for Unsupervised Action Learning via Global-to-Local Motion Transformer" [[paper]](https://www.sciencedirect.com/science/article/pii/S0031320324008690). GL-Transformer++ is an extension method of GL-Transformer (ECCV 2022) [[paper]](https://arxiv.org/abs/2207.06101) [[project]](https://boeun-kim.github.io/).
 
 
 
